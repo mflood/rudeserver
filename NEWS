@@ -1,0 +1,48 @@
+RudeServer NEWS - User visible changes.
+See ChangeLog for more detailed information on internal changes
+See the end for copying conditions.
+
+__________________________________________________________________________________
+Version 1.2
+
+   ** Printing the Content-Type now includes the View's charset as well
+	   Example:  Content-Type: text/html; charset=UTF-8
+
+__________________________________________________________________________________
+Version 1.1
+
+	** It is now the responsibility of the View/Decorator in the webPlatform to
+	   generate xsl:output tags and xsl:decimal-format tags.  Rudeserver is now
+	   only ouputing the DTD and the outermost xsl:stylesheet tag....
+
+__________________________________________________________________________________
+Version 1.0
+
+	** RudeServer became open source and is distributed under the GNU Public License.
+		Commercial licenses are available for a fee, and allow the holder
+		to use the library in commercial applications. Contact info@rudeserver.com
+		for more details.
+
+__________________________________________________________________________________
+		
+
+Copyright (C) 2002, 2003, 2004, 2005 Matthew Flood
+See file AUTHORS for contact information
+
+This file is part of RudeServer.
+
+RudeServer is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2, or (at your option)
+any later version.
+
+RudeServer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with RudeServer; see the file COPYING.  If not, write to
+the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.
+
